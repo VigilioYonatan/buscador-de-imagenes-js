@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.header{
+    max-width: 1600px;
+
+    height: 43.75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo{
+    margin: 2rem;
+}
+
+.logo h1{
+    color: white;
+}
+.search{
+    display: flex;
+}
+
+.search__inp{
+    width: 19.375rem;
+    height: 45px;
+    padding: .5rem;
+}
+
+.search__btn{
+    padding: .5rem;
+    height: 45px;
+    background-color: white;
+}
+
+.microfono{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 1rem;
+}
+
+
+
+.micro{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(173, 216, 230, 0.322);
+}
+
+.micro2{
+    color: red;
+}
+
+.microfono svg{
+    width: 80%;
+    height: 80%;
+}
+.microfono__result{
+    text-align: center;
+    color: white;
+}
+
+.header__search{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+.header__search2{
+    font-size: 1rem;
+    color: aqua;
+}
+
+.header__search3{
+    font-size: 1rem;
+    color: rgb(12, 166, 204);
+}
+
+.bajar{
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: rgb(4, 8, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    border-radius: 50%;
+}
+
+.bajar svg{
+    width: 80%;
+    height: 80%;
+}
+
+.resultados{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.resultado{
+    width: 31%;
+    margin: 1rem;
+    height: 18.75rem;
+}
+
+.resultado img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1380px) {
+    .resultado{
+        width: 29%;
+        height: 20.75rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .resultado{
+        width: 45%;
+        height: 20.75rem;
+    }
+}
+@media screen and (max-width: 664px) {
+    .resultado{
+        width: 31%;
+        height: 10rem;
+        margin: .3rem;
+    }
+}
+@media screen and (max-width: 448px) {
+    .resultado{
+        width: 45%;
+        
+    }
+}
