@@ -20,11 +20,13 @@ body{
 }
 
 .logo{
-    margin: 2rem;
+   
 }
 
 .logo h1{
+    margin: 2rem;
     color: white;
+    text-align: center;
 }
 .search{
     display: flex;
@@ -148,9 +150,22 @@ body{
         margin: .3rem;
     }
 }
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 600px) {
+    .logo h1{
+        font-size: 1.5rem;
+    }
     .resultado{
         width: 45%;
         
+    }
+    .search__inp{
+        width: 10rem;
+        height: 2.5rem;
+    }
+    .search__btn{
+        height: 2.5rem;
+    }
+    .microfono{
+        margin-left: .1rem;
     }
 }
